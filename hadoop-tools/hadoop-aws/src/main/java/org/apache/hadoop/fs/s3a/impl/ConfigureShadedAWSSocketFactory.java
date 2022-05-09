@@ -22,9 +22,10 @@ import javax.net.ssl.HostnameVerifier;
 import java.io.IOException;
 
 import com.amazonaws.ClientConfiguration;
-import com.amazonaws.thirdparty.apache.http.conn.ssl.SSLConnectionSocketFactory;
+//import com.amazonaws.thirdparty.apache.http.conn.ssl.SSLConnectionSocketFactory;
 
 import org.apache.hadoop.security.ssl.DelegatingSSLSocketFactory;
+import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 
 /**
  * This interacts with the Shaded httpclient library used in the full

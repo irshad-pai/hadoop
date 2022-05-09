@@ -430,11 +430,34 @@
       <scope>test</scope>
       <type>test-jar</type>
     </dependency>
+<!--    <dependency>-->
+<!--      <groupId>com.amazonaws</groupId>-->
+<!--      <artifactId>aws-java-sdk-bundle</artifactId>-->
+<!--      <scope>provided</scope>-->
+<!--    </dependency>-->
+
+    <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
     <dependency>
       <groupId>com.amazonaws</groupId>
-      <artifactId>aws-java-sdk-bundle</artifactId>
-      <scope>compile</scope>
+      <artifactId>aws-java-sdk-s3</artifactId>
+      <version>1.12.215</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-sts -->
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-sts</artifactId>
+      <version>1.12.215</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/aws.sdk.kotlin/aws-http-jvm -->
+
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.13</version>
+    </dependency>
+
+
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
